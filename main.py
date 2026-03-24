@@ -1,41 +1,12 @@
-print("Hello World")
-jmeno="Martina"
-print("Ahoj", "Martina")
+from animal import Animal
+a1 = Animal("Azor", "pes", 5)
+a2 = Animal("Micka", "kočka", 3)
+a3 = Animal("Blesk", "kůň", 7)
 
-x=10
-y=x/2
-print(y)
-d=10
-x=d
-y=x/2
-print(y)
-x=10**2
-print(x)
-print(y)
-print(d)
-
-name="Pavel"
-position= "prodejce aut"
-x=name
-y=position
-print(x)
-print(y)
-x=name+position
-print(x)
-y= " je "
-x= name + y + position
-name= ("Pavel")
-position="prodejce aut"
-grade=4
-predmet= "matika"
-is_student= True
-x=len("asd")
-
-print(f"{name} je {position} , a z {predmet} dostal {grade}")
-print (f"jmeno {name} ma {len(name)} znaku")
-
-
-
+for zvire in [a1, a2, a3]:
+    zvire.info()
+    zvire.make_sound()
+    print("------")
 
 
 
