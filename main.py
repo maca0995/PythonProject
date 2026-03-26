@@ -12,7 +12,7 @@ try:
     vek =int(input("Zadej vek"))
     print(vek)
 
-except VeleuError:
+except ValueError:
     print("Musíš zadat číslo!")
 
 
