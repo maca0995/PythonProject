@@ -8,6 +8,12 @@ for zvire in [a1, a2, a3]:
     zvire.make_sound()
     print("------")
 
+try:
+    vek =int(input("Zadej vek"))
+    print(vek)
+
+except VeleuError:
+    print("Musíš zadat číslo!")
 
 
 
